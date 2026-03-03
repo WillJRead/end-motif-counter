@@ -61,5 +61,5 @@ def count_fastq_folder(folder_name, motif_lengths=[2]):
     return all_results, combined_df
 
 # Example usage:
-results = count_fastq_folder("folder of files", motif_lengths=[2])
-print(results)
+#results = count_fastq_folder("your folder", motif_lengths=[desired integer length])
+#print(results)

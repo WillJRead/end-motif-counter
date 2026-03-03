@@ -1,4 +1,3 @@
-# scripts/count_fastq_file.py
 from pathlib import Path
 import pandas as pd
 
@@ -36,7 +35,7 @@ def count_fastq_file(file_name, motif_lengths=[]):
 
     print(f"Processed {total_reads} reads from {file_name}")
     
-    #conver motifs to a dataframe
+    #convert motifs to a dataframe
     results_df = pd.DataFrame(motif_counts).fillna(0).astype(int)
     results_df.columns = ["end_motif_count"]
     results_df = results_df.sort_values(by="end_motif_count", ascending=False)
@@ -50,5 +49,5 @@ def count_fastq_file(file_name, motif_lengths=[]):
     
 
 # Example usage:
-df = count_fastq_file("1_control_psbA3_2019_minq7.fastq", motif_lengths=[2])
-print(df)
+#df = count_fastq_file("your.file.name.fastq"), motif_lengths=[desired integer value of end-motif])
+#print(df)
