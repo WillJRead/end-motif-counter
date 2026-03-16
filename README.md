@@ -1,6 +1,6 @@
 # Counting End-Motifs
 
-This is a personal project where I explored DNA sequence data in FASTQ files to extract and count end-motifs of user-defined lengths. The goal was to practice Python programming, file parsing, and data summarization while working with real sequencing data before I started a much larger project where I would be underatking similiar tasks. The example data in this project is publicly avaibale however I cannot state exactly where it was downloaded from as the URL has been lost.
+This is a personal project where I explored DNA sequence data in FASTQ files to extract and count end-motifs of user-defined lengths. The goal was to practice Python programming, file parsing, and data summarization while working with real sequencing data before I started a much larger project where I would be underatking similiar tasks. The example data in this project is publicly avaibale however I cannot state exactly where it was downloaded from as the URL has been lost. This does only work on forward reads currently. Working on impelemnting a system to detect paired read data and then produce 5' end motif counts.
 
 ---
 
